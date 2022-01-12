@@ -1,8 +1,8 @@
-function introduction(name="Aki") {
+function introduction(name="name") {
   return(`Hi, my name is ${name}.`);
 }
 
-function introductionWithLanguage(name="Aki", language = "JavaScript") {
+function introductionWithLanguage(name="name", language = "JavaScript") {
   return(`Hi, my name is ${name} and I am learning to program in ${language}.`);
 }
 
